@@ -15,7 +15,7 @@ services:
 
   helium-miner:
     restart: always
-    image: quay.io/team-helium/miner:latest-arm64
+    image: quay.io/team-helium/miner-arm64_2021.05.12.0_GA
     ports:
       - "44158:44158/tcp"
       - "1680:1680/udp"
